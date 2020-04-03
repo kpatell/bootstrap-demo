@@ -1,9 +1,11 @@
 const siteUrl = 'https://finance.yahoo.com/chart/<SYMBOL>';
 const symbolLists = {
-  list1: ['AAPL', 'GOOG', 'FB', 'AMZN', 'NFLX', 'MSFT'],
+  list1: ['AAPL', 'GOOG', 'FB', 'AMZN', 'NFLX', 'MSFT', 'TSLA'],
   list2: ['REGN', 'MRNA', 'GILD', 'INO'],
-  list3: ['BA', 'COST', 'WMT', 'ZM'],
-  list4: ['DOCU', 'DPZ', 'BIDU']
+  list3: ['BA', 'COST', 'WMT', 'SHOP'],
+  list4: ['DOCU', 'BIDU', 'BABA', 'MELI', 'NTES'],
+  list5: ['ANTM', 'UNH', 'HUM', 'SDGR'],
+  list6: ['CSCO','ZM']
 };
 
 const windowFeatures = "menubar=0,location=0,toolbar=0,resizable=yes,scrollbars=yes,status=0,titlebar=0";
